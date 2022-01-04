@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sayuran</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Sayuran</div>
+        <hr>
+        <table>
+            <tr>
+                <th>Nama Sayuran</th>
+                <th>Harga per kilo</th>
+                <th>Jumlah</th>
+                <th>Diskon</th>
+                <th>Total</th>
+                <th>Pembayaran</th>
+                <th>Kembalian</th>
+            </tr>
+            <tr>
+                <td th:text="${var_input}"td>
+                <td th:text="${var_harga}"></td>
+                <td th:text="${var_jumlah}"></td>
+                <td th:text="${var_diskon}"></td>
+                <td th:text="${var_total}"></td>
+                <td th:text="${var_bayar}"></td>
+            </tr>
+        </table>
+    </body>
+</html>
